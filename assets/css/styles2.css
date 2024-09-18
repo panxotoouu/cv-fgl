@@ -1,0 +1,39 @@
+/* Fondo degradado lineal de blanco a negro */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #000000);
+    display: flex; /* Utiliza Flexbox para centrar el contenido */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo del contenedor de las tarjetas */
+.container {
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+}
+
+/* Estilo de las tarjetas */
+.card {
+    border: none; /* Opcional: elimina el borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más moderno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+.card-img-top {
+    max-height: 300px; /* Ajusta la altura máxima de la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+    border-top-left-radius: 10px; /* Bordes redondeados en la parte superior */
+    border-top-right-radius: 10px; /* Bordes redondeados en la parte superior */
+}
+
+.card-body {
+    padding: 1.5rem; /* Aumenta el padding para más espacio en el contenido */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Tamaño de fuente más grande para el título */
+    font-weight: bold; /* Opcional: resaltar el título en negrita */
+}
